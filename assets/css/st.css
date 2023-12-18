@@ -1,5 +1,0 @@
-.page-header {
-    background-image: url("{{ site.baseurl }}{{ site.header.image }}");
-    background-size: cover;
-}
-

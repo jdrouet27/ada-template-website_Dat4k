@@ -13,3 +13,7 @@
     background-image: url("{{ site.baseurl }}{{ site.header.image }}");
     background-size: cover;
 }
+
+.project-name {
+    color: black;
+}
