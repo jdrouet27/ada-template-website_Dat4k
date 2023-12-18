@@ -12,7 +12,7 @@ header:
   image: /time_loop.jpg
 
 styles : 
-    - "/assets/css/style.css"
+    - "/assets/css/style.scss"
 
 navigation:
   - title : Home
