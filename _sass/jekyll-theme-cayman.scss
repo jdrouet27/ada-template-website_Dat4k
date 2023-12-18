@@ -1,7 +1,0 @@
-// Placeholder file. If your site uses
-//     @import "{{ site.theme }}";
-// Then using this theme with jekyll-remote-theme will work fine.
-.page-header {
-    background-image: url("{{ site.header.image | relative_url }}");
-    background-size: cover;
-  }
