@@ -11,7 +11,8 @@ show_downloads: True
 header:
   image: /time_loop.jpg
 
-
+styles : 
+    - "/assets/css/style.css"
 
 navigation:
   - title : Home
