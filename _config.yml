@@ -1,7 +1,11 @@
-theme: jekyll-theme-minimal
+#theme: jekyll-theme-minimal
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
 title: "Project Dat4k : Are we in a time loop"
 description: Trying to create a website 
 show_downloads: True
+baseurl: /repository
 navigation:
   - title: Home
     url: /
