@@ -11,5 +11,5 @@ show_downloads: True
 navigation:
   - title : Home
     url : \
-  - title : Test
+  - title : Project Dat4k
     url: /test/
