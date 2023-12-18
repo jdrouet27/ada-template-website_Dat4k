@@ -8,6 +8,12 @@ title: "Project Dat4k : Are we in a time loop"
 description: Trying to create a website
 show_downloads: True
 
+header:
+  image: time_loop.jpg
+
+styles:
+  - "/assets/css/styles.scss"
+
 navigation:
   - title : Home
     url : \
