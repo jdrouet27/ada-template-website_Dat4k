@@ -7,7 +7,9 @@ Hope you will **like** it
 
 #  And if we were in a time loop ?
 
-<img src="\assets\img\time_loop.jpg" alt="time loop" width="500px">
+
+<!-- Timeloop -->
+<img src="time_loop.jpg" alt="time loop" width="500px">
 
 
 ## Abstract : 
