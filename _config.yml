@@ -9,7 +9,7 @@ description: Trying to create a website
 show_downloads: True
 
 header:
-  image: time_loop.jpg
+  image: /time_loop.jpg
 
 styles:
   - "/_sass/styles.scss" # Point directly to the Sass file in _sass folder
