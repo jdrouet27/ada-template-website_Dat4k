@@ -11,9 +11,5 @@ description: Trying to create a website
 show_downloads: True
 
 navigation:
- # - title: Home
- #   url: /
- # - title: Example
- #   url: example
   - title : Test
     url: test
