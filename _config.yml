@@ -8,5 +8,7 @@ description: Trying to create a website
 show_downloads: True
 
 navigation:
+  - title : Home
+    url : \
   - title : Test
     url: \test
