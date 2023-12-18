@@ -12,7 +12,8 @@ header:
   image: time_loop.jpg
 
 styles:
-  - "/assets/css/styles.css"
+  - "/_sass/styles.scss" # Point directly to the Sass file in _sass folder
+
 
 navigation:
   - title : Home
