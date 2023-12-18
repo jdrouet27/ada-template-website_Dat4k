@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Test
 ---
 
 We will present our Data story in this folder .
