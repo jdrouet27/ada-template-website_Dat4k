@@ -12,4 +12,4 @@ navigation:
   - title : Home
     url : \
   - title : Test
-    url: test
+    url: /test/
