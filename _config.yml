@@ -8,7 +8,7 @@ theme: jekyll-theme-minimal
 title: "Project Dat4k : Are we in a time loop"
 description: Trying to create a website 
 show_downloads: True
-baseurl: /repository
+#baseurl: /repository
 navigation:
   - title: Home
     url: /
