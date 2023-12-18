@@ -12,7 +12,7 @@ header:
   image: /time_loop.jpg
 
 styles:
-  - "/assets/css/styles.scss" # Point directly to the Sass file in _sass folder
+  - "/assets/css/styles.css" # Point directly to the Sass file in _sass folder
 
 
 navigation:
