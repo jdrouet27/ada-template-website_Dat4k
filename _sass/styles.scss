@@ -2,7 +2,7 @@
 //     @import "{{ site.theme }}";
 // Then using this theme with jekyll-remote-theme will work fine.
 
-@import "jekyll-theme-cayman"; 
+//@import "jekyll-theme-cayman"; 
 
 .page-header {
     background-image: url("{{ site.baseurl }}{{ site.header.image }}");
