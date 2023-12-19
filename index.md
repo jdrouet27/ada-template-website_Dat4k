@@ -42,3 +42,5 @@ What if we were stuck in a time loop? This is the question we try to answer thro
 
 
 <iframe src="distrib_over_season_combined.html" width="800" height="600"></iframe>
+
+<iframe src="interactive_plot.html" width="800" height="600"></iframe>
