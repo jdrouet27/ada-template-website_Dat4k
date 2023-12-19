@@ -44,3 +44,19 @@ What if we were stuck in a time loop? This is the question we try to answer thro
 <iframe src="distrib_over_season_combined.html" width="800" height="600"></iframe>
 
 <iframe src="interactive_plot.html" width="800" height="600"></iframe>
+
+<html>
+<head>
+   <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+   <script>
+      $(function() {
+         $("#includeHtml").load("distrib_over_season_combined.html");
+      });
+   </script>
+</head>
+<body>
+   <h2>Program to include another HTML file in this HTML using <i>JQuery load</i></h2>
+   <div id="includeHtml"></div>
+</body>
+</html>
+
