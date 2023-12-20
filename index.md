@@ -3,60 +3,40 @@ layout: default
 title: Project Dat4k
 ---
 
-We will present our Data story in this folder .
-Hope you will **like** it
 
 #  And if we were in a time loop ?
 
 
-<!-- Timeloop -->
-<img src="time_loop.jpg" alt="time loop" width="500px">
+As the holiday season begins, the need to get cozy and watch a comforting sentimental Christmas movie suddenly appears. There is by chance a new Christmas movie at the box office which looks perfectly cheesy!
+
+Mmh… do you also feel this lingering sense of déjà vu? The Christmas movie last year had almost the same poster, and the same type of actors were starring. 
+But when you think more deeply, you also realize that two months ago, you absolutely wanted to get in a spooky mood, and watch the scariest movie, as well as last October and all the years before!
+
+You might have just found out the most disturbing observation: maybe it is not just a personal feeling, maybe most movies in each season share the same features. 
+The evolution of an industry is always seen through its yearly graduation, but striking results could appear if time evolution was considered as a cycle. 
+Most importantly, tendencies of the movie industry give insights about our whole society, as it is a mirror of our state of mind.
+You are then just about to find that our mood is stuck in a time loop, which controls our entertainment desires! 
+
+But as you are not into conspiracy theories, you might not be that easily convinced…
+This study is then here to give you proper answers to your intuition. 
+The tools of data sciences learned in ADA will be of great use to deepen the following lines of research: 
+Is there a statistically significant recurrence of specific film genres during particular seasons or months of the year? 
+Are there discernible patterns in the box office performance of specific film genres throughout the year, and do these patterns correlate with particular months?
+Is there a relation between the connotation of the words and the season of release?
+Can we predict the release season of a movie by looking at its main features?
+
+In a first part the main genres will be extracted from the data, and their tendency over months will be enhanced. (plots of the main genres over months, analysis of pics, and importance of years. T-test to validate the hypothesis)
+In a second part, a causal analysis will find if the reason why movies of a certain genre are more successful in terms of revenue is due to the fact that they are released during their season of predilection. (Très mal expliqué, mais faire causal analysis pour horror et family)
+Then, using machine learning tools, the final goal is to determine if it is possible to predict the season of release of a movie, given its main features.
 
 
-## Abstract : 
-What if we were stuck in a time loop? This is the question we try to answer throughout this study. We conduct a temporal analysis of movies’ characteristics throughout the years and the months, focusing on the identification of patterns repeating over and over again in cinematographic history.  We aim to recognize a potential influence of the release date of a movie on its type, its plot and its success. To achieve this goal, we focus our interest on the main genres of the films, their recurring characters, the grossing profit they bring and their plot summaries. We hope that we’ll manage to give you insights on the hidden mechanisms of the cinema industry!
 
 
 
-### Petite image pour tester 
-
-
-<!-- Description de l'image -->
-<img src="test.png" alt="Description de l'image" width="300px">
-
-
-### et une deuxieme parce que ca commence a me souler
-![Octocat](test.png)
-
-
-
-# ADA Template Website
-## Usage
-1. Fork (copy) this repository by clicking the "Fork" button on the top right corner.
-2. Go to "Settings" -> "Pages" in your forked repository. Under "Branch" change "None" to "master" and click "Save".
-3. Edit the `_config.yml` file in your forked repository to change the site title (after `title:`) and description (after `description:`).
-4. Build your own page by editing this `README.md` (home page) and creating new `.md` files (other pages), formatting is done with standard [GitHub Markdown syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax), we provide an example file `example.md` in the repository.
-**Important**: Please include ```--- layout: default ---``` (the first three line in `example.md`) at the beginning of your every newly created `.md` file.
-5. Add your new `.md` files to the site by editing the `_config.yml` file in your forked repository. Under `navigation:` add a new pair of `- title:` and `url:`, and fill their value with your page name and `.md` file name. Remember to remove the `- title:` and `url:` pair for the example page.
-6. Go back to "Settings" -> "Pages" to find your website link.
 
 
 <iframe src="distrib_over_season_combined.html" width="800" height="600"></iframe>
 
 <iframe src="interactive_plot.html" width="800" height="600"></iframe>
 
-<html>
-<head>
-   <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-   <script>
-      $(function() {
-         $("#includeHtml").load("distrib_over_season_combined.html");
-      });
-   </script>
-</head>
-<body>
-   <h2>Program to include another HTML file in this HTML using <i>JQuery load</i></h2>
-   <div id="includeHtml"></div>
-</body>
-</html>
 
