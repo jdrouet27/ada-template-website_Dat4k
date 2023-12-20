@@ -31,12 +31,28 @@ Then, using machine learning tools, the final goal is to determine if it is poss
 
 
 
+## Are there redundancies over months? 
+
+This question will be answered through the spectrum of genre and box office revenue. The goal is to determine if there are significant peaks in certain months for specific genres, and also to get an overview of the monthly box office revenue distribution.
+### The monthly distribution of genres
+There are over 351 different genres in the movie metadata, which seems difficult to study at first sight! But their occurrence decays as a power law, which means that taking into account only the first genres will still describe most of the data. Moreover, many genres have slightly different names but can be grouped in main ones.
+8 main genres are then chosen, because they define a high proportion of data, and also because they are the ones which will be relevant further in our monthly study:
+- Drama
+- Comedy
+- Romance
+- Thriller
+- Action
+- Family film
+- Horror
+- Informative
+Let’s look at the overall monthly distribution of these main genres.
 
 
 
 
-<iframe src="distrib_over_season_combined.html" width="800" height="600"></iframe>
 
-<iframe src="interactive_plot.html" width="800" height="600"></iframe>
+<iframe src="distrib_over_season_combined.html" width="800" height="400"></iframe>
+
+
 
 
