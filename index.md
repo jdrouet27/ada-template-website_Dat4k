@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Project Dat4k
+title: And if we were in a time loop ?
 ---
 
 
@@ -53,8 +53,22 @@ Let’s look at the overall monthly distribution of these main genres.
 
 
 
-<iframe src="distrib_over_season_combined.html" width="800" height="400"></iframe>
+<iframe src="distrib_over_season_combined.html" width="800" height="800"></iframe>
 
+
+The first histogram lets us compare each genre with itself for every month. 
+It is clear that most of the genres have less movies in summer than in other seasons, except for Action, Horror and Family film movies.
+On the second plot, it is easier to compare each genre to other genres throughout the months.
+There are indeed more informative movies than horror movies in Spring but the tendency is the opposite in Summer.
+It seems clear the Drama, Comedy, and Action genres are the most present, and this for all seasons.
+No striking results appear in this first plot, it would be too easy right? 
+Maybe some tendencies will appear by looking at genres individually…
+We indeed found 3 genres with noticeable peaks: Horror, Family, and Romance movies.
+
+
+
+
+<iframe src="/assets/img/combined_plots_horror.html" width="800" height="400"></iframe>
 
 
 
