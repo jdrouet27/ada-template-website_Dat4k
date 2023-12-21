@@ -53,7 +53,7 @@ Let’s look at the overall monthly distribution of these main genres.
 
 
 
-<iframe src="distrib_over_season_combined.html" width="800" height="800"></iframe>
+<iframe src="distrib_over_season_combined.html" width="800" height="850"></iframe>
 
 
 The first histogram lets us compare each genre with itself for every month. 
@@ -68,7 +68,7 @@ We indeed found 3 genres with noticeable peaks: Horror, Family, and Romance movi
 
 
 
-<iframe src="combined_plots_horror.html" width="800" height="400"></iframe>
+<iframe src="combined_plots_horror.html" width="1200" height="500"></iframe>
 
 
 
