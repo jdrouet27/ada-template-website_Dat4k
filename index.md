@@ -12,7 +12,7 @@ As the holiday season begins, the need to get cozy and watch a comforting sentim
 Mmh… do you also feel this lingering sense of déjà vu? The Christmas movie last year had almost the same poster, and the same type of actors were starring. 
 But when you think more deeply, you also realize that two months ago, you absolutely wanted to get in a spooky mood, and watch the scariest movie, as well as last October and all the years before!
 
-![Pole express](assets/img/pole_express.jpg){:width="300px"}
+![Pole express](assets/img/pole_express.jpg){:width="600px" align="center"}
 
 You might have just found out the most disturbing observation: maybe it is not just a personal feeling, maybe most movies in each season share the same features. 
 The evolution of an industry is always seen through its yearly graduation, but striking results could appear if time evolution was considered as a cycle. 
