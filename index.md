@@ -75,15 +75,15 @@ We indeed found 3 genres with noticeable peaks: Horror, Family, and Romance movi
     }
 </style>
 
-<iframe src="combined_plots_horror.html" width="700" height="350" class="center-iframe"></iframe>
+<iframe src="combined_plots_horror.html" width="800" height="380" class="center-iframe"></iframe>
 
 
 <div style="text-align: center;">
-    <iframe src="combined_plots_romance.html" width="700" height="350"></iframe>
+    <iframe src="combined_plots_romance.html" width="800" height="380"></iframe>
 </div>
 
 <div style="text-align: center;">
-    <iframe src="combined_plots_family.html" width="700" height="350"></iframe>
+    <iframe src="combined_plots_family.html" width="800" height="380"></iframe>
 </div>
 
 
@@ -91,7 +91,7 @@ As can be seen in these plots, the spooky season is clearly during October, whil
 However, these results need to be nuanced by stronger analysis, like hypothesis testing. For each of these three genres, a null hypothesis is built, to test the validity of the peaks seen in the previous plots:
 H0: "Mean of movies per year and per month for peak months == Mean of movies per year and per month for all the other months."
 
-<iframe src="ttest.html" width="700" height="350" class="center-iframe"></iframe>
+<iframe src="ttest.html" width="800" height="380" class="center-iframe"></iframe>
 
 
 
