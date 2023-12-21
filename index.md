@@ -91,7 +91,7 @@ As can be seen in these plots, the spooky season is clearly during October, whil
 However, these results need to be nuanced by stronger analysis, like hypothesis testing. For each of these three genres, a null hypothesis is built, to test the validity of the peaks seen in the previous plots:
 H0: "Mean of movies per year and per month for peak months == Mean of movies per year and per month for all the other months."
 
-<iframe src="ttest.html" width="800" height="380" class="center-iframe"></iframe>
+<iframe src="ttest.html" width="1000" height="380" class="center-iframe"></iframe>
 
 
 
