@@ -75,15 +75,15 @@ We indeed found 3 genres with noticeable peaks: Horror, Family, and Romance movi
     }
 </style>
 
-<iframe src="combined_plots_horror.html" width="500" height="250" class="center-iframe"></iframe>
+<iframe src="combined_plots_horror.html" width="700" height="350" class="center-iframe"></iframe>
 
 
 <div style="text-align: center;">
-    <iframe src="combined_plots_romance.html" width="500" height="250"></iframe>
+    <iframe src="combined_plots_romance.html" width="700" height="350"></iframe>
 </div>
 
 <div style="text-align: center;">
-    <iframe src="combined_plots_family.html" width="500" height="250"></iframe>
+    <iframe src="combined_plots_family.html" width="700" height="350"></iframe>
 </div>
 
 
