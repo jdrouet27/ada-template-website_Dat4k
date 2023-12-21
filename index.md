@@ -100,5 +100,47 @@ This means that it is most likely that there will be more Horror movies in Octob
 Our time loop seems to be verified for some main genres!
 ### 2. The monthly distribution of box office revenue
 
+**Need to do something**
+
+
+## II. Is the box office affected by a particular release season for a particular movie genre?
+
+We concluded previously that for some genres, there was a clear seasonal redundancy in terms of number of movies released. 
+If it is true that for some genres, the number of movies increases a lot during a certain month, then does it mean that the movies released during this particular period are more successful in terms of box office revenue? In other words, will a Horror movie be more successful if released in October? 
+This question goes even further than only looking at the movie redundancies, it asks the question of economic success, which can be very interesting for the cinema industry…
+
+Because we obtained significant results only for Horror and Family movies, let’s perform a causal analysis on these genres. This observational study aims to determine if the economic success of Horror/Family movies is caused by a release month in October/July, November, December.
+### 1. Hunt down the confounders!
+
+There is a need to balance our control and treatment groups, so that the comparison of their mean box office revenue makes sense. 
+
+The first main confounder would be the movie budget.  Indeed, box office is influenced by when the big franchise movies are released. We’re interested in the success of movies regardless of how big the franchise is.
+
+Secondly, an important bias is the continent of release. In fact, Halloween is celebrated at different degrees of popularity. For example, Russian people don't even celebrate it, whereas It is a big event in the USA. For the case of Family movies, the holiday season also clearly depends on the country of release.
+For that reason we might want to match movies with the same continent of release. 
+
+Finally, we take into account the release year of the movie, to eliminate the influence of inflation over the years.
+To balance these confounders, a propensity score is used to match the datasets, while an exact matching is performed on the country of release.
+
+
+
+### 2. Contradictory results
+* Horror movies
+Idea of interactive plot-> box plots of treat/control box office revenue before and after the matching 
+
+Regarding Horror movies, it was found that after matching, the movies released in October (treatment group) were showing better average box office revenue than in other months. 
+
+* Family movies
+Idea of interactive plot-> box plots of treat/control box office revenue before and after the matching
+
+Regarding Family movies, it was found that after matching, the movies released in July/November/December (treatment group) were showing lower average box office revenue than in other months. 
+
+Comment this part and justify contradictory results
+
+## III. Is a movie release season predictable?
+
+
+
+
 
 
