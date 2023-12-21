@@ -33,10 +33,10 @@ Then, using machine learning tools, the final goal is to determine if it is poss
 
 
 
-## Are there redundancies over months? 
+## I. Are there redundancies over months?
 
 This question will be answered through the spectrum of genre and box office revenue. The goal is to determine if there are significant peaks in certain months for specific genres, and also to get an overview of the monthly box office revenue distribution.
-### The monthly distribution of genres
+### 1. The monthly distribution of genres
 There are over 351 different genres in the movie metadata, which seems difficult to study at first sight! But their occurrence decays as a power law, which means that taking into account only the first genres will still describe most of the data. Moreover, many genres have slightly different names but can be grouped in main ones.
 8 main genres are then chosen, because they define a high proportion of data, and also because they are the ones which will be relevant further in our monthly study:
 - Drama
@@ -95,6 +95,10 @@ H0: "Mean of movies per year and per month for peak months == Mean of movies per
 
 
 
+The null hypothesis is rejected under the significance level of 0.05 for the Horror movies in October, and for the Family films in July, November, and December, but not for the Romance movies in February.
+This means that it is most likely that there will be more Horror movies in October, while there will be more Family films in July, November and December. 
+Our time loop seems to be verified for some main genres!
+### 2. The monthly distribution of box office revenue
 
 
 
