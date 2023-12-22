@@ -87,9 +87,6 @@ H0: "Mean of movies per year and per month for peak months == Mean of movies per
 The null hypothesis is rejected under the significance level of 0.05 for the Horror movies in October, and for the Family films in July, November, and December, but not for the Romance movies in February.
 This means that it is most likely that there will be more Horror movies in October, while there will be more Family films in July, November and December. 
 Our time loop seems to be verified for some main genres!
-### 2. The monthly distribution of box office revenue
-
-**Need to do something**
 
 
 ## II. Is the box office affected by a particular release season for a particular movie genre?
