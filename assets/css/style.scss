@@ -12,24 +12,7 @@
 }
 
 
-.project-name {
-    position: absolute;
-    top: 250px; /* Ajustez la valeur pour déplacer le titre vers le bas */
-    left: 50%; /* Centrez horizontalement le titre */
-    transform: translateX(-50%); /* Ajustez pour centrer horizontalement le titre */
-    font-size: 2.5em; /* Ajustez la taille de la police selon vos besoins */
-    color: #fff; /* Couleur du texte du titre */
-}
 
-.project-tagline{
-    position: absolute;
-    top: 350px; /* Ajustez la valeur pour déplacer le titre vers le bas */
-    left: 50%; /* Centrez horizontalement le titre */
-    transform: translateX(-50%); /* Ajustez pour centrer horizontalement le titre */
-    font-size: 2.5em; /* Ajustez la taille de la police selon vos besoins */
-    color: #fff; 
-    font-size: 24px;
-}
 #imgbkg {
     background-image: url("{{ site.baseurl }}{{ site.header.image }}");
     background-size: cover;
@@ -56,3 +39,21 @@ body h1 , body h2, body h3 {
   
 
 
+.project-name {
+    position: absolute;
+    top: 250px; /* Ajustez la valeur pour déplacer le titre vers le bas */
+    left: 50%; /* Centrez horizontalement le titre */
+    transform: translateX(-50%); /* Ajustez pour centrer horizontalement le titre */
+    font-size: 2.5em; /* Ajustez la taille de la police selon vos besoins */
+    color: #fff !important; /* Couleur du texte du titre */
+}
+
+.project-tagline{
+    position: absolute;
+    top: 350px; /* Ajustez la valeur pour déplacer le titre vers le bas */
+    left: 50%; /* Centrez horizontalement le titre */
+    transform: translateX(-50%); /* Ajustez pour centrer horizontalement le titre */
+    font-size: 2.5em; /* Ajustez la taille de la police selon vos besoins */
+    color: #fff !important; 
+   
+}
