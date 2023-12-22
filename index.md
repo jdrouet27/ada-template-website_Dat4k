@@ -163,12 +163,12 @@ After quite some work, it is finally time to dive deep into the machine learning
 
 We can see that the best parameters are obtained for a sample size of 0.05 times the whole and a C value of 0.01. By deepening our analysis we realized that the sample was not consistent enough and the results were too variable from one sample to another. We therefore concluded that we needed to check these results in another way.
 
- To dig deeper into the model selection, we conducted a k-fold cross-validation process on three different types of model : Boosted decision trees, logistic regression and random forest. These three methods work in quite a different way and are optimal in different scenarios, so we thought we would find the gem within them. The cross validation is achieved by trying different values of the learning rate for Boosted trees, different values of C (Expliquer ce que c’est…)  for the Logistic regression and different numbers of classifiers (Expliquer ce que c’est..) for Random forest. These are the results we obtained :
+ To dig deeper into the model selection, we conducted a k-fold cross-validation process on three different types of model : Boosted decision trees, logistic regression and random forest. These three methods work in quite a different way and are optimal in different scenarios, so we thought we would find the gem within them. The cross validation is achieved by trying different values of the learning rate for Boosted trees, different values of C for the Logistic regression and different numbers of classifiers for Random forest. These are the results we obtained :
 
 <iframe src="model_chosen.html" width="1000" height="380" class="center-iframe"></iframe>
 
 
-It appears that the logistic regression with c=0.1 is the combination resulting in the best accuracy, which we aim to optimize. 
+It appears that the Boosted decision trees with learning rate equal to 0.01 is the combination resulting in the best accuracy, which we aim to optimize. 
 
 ### 5. Optimizing the model 
 
@@ -191,7 +191,7 @@ Now the tension is building… have we managed to reach this level ? Are you rea
 
 <iframe src="decompte.html" width="400" height="150" class="center-iframe2"></iframe>
 
-We have an accuracy of … !!!!!!! Therefore our model is significantly better than a random predictor, which means that it helps predict the release season of a movie, even if it can’t always be right. But in reality, who is ?
+We have an accuracy of 28.2 % ! Therefore our model is significantly better than a random predictor, which means that it helps predict the release season of a movie, even if it can’t always be right. But in reality, who is ?
 
 
 ## IV. Conclusion 
@@ -200,5 +200,10 @@ So, are we really in a time loop?
 What seemed very intuitive at first feels suddenly more complex…
 Initially, we were on good tracks to make this huge discovery. Indeed, for some genres, we found a monthly loop pattern. 
 Then, we found some of these loops are exploited and maintained by the cinema industry e.g. horror movies in October. But we also found some others are not, they might be the consequence of traditional cycles e.g. holidays for family films.
+
+In the end, the results are pretty poor. This enabled us to realise that the release of films is more difficult to predict than expected. By trying to modify as many parameters as possible, we've never achieved any great accuracy. We should have concentrated more on the F1 scores.
+
+As a consolation, it's satisfying to see that films can't be predicted. As it indicates that this isn't a perfectly oiled machine for releasing the right films at the right time, with the sole aim of making money.
+
 
 
