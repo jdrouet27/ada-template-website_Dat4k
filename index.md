@@ -115,9 +115,16 @@ Finally, we take into account the release year of the movie, to eliminate the in
 Let's visualize the distribution of these confounders:
 PLOT HORROR + FAMILY BEFORE
 
+<iframe src="box_Horror_before.html" width="1000" height="380" class="center-iframe"></iframe>
+
+<iframe src="box_Family_before.html" width="1000" height="380" class="center-iframe"></iframe>
+
 To balance these confounders, a propensity score is used to match the datasets, while an exact matching is performed on the country of release.
 
 Here are the balanced distributions for our confounders:
+<iframe src="box_Horror_after.html" width="1000" height="380" class="center-iframe"></iframe>
+<iframe src="box_Family_after.html" width="1000" height="380" class="center-iframe"></iframe>
+
 PLOT HORROR + FAMILY AFTER
 
 ### 2. Contradictory results
@@ -144,7 +151,7 @@ Our dataset consists of movies from previous years, where Data Science was not s
 
 
 
-<iframe src="p_value_vs_accuracy.html" width="1000" height="380" class="center-iframe"></iframe>
+<iframe src="p_values_vs_accuracy.html" width="1000" height="380" class="center-iframe"></iframe>
 
 
 
