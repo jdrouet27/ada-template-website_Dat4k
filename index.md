@@ -130,6 +130,10 @@ Idea of interactive plot-> box plots of treat/control box office revenue before 
 
 Regarding Horror movies, it was found that after matching, the movies released in October (treatment group) were showing better average box office revenue than in other months. 
 
+
+<iframe src="box.html" width="1000" height="380" class="center-iframe"></iframe>
+
+
 * Family movies
 Idea of interactive plot-> box plots of treat/control box office revenue before and after the matching
 
