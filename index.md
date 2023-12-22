@@ -138,15 +138,62 @@ Our dataset consists of movies from previous years, where Data Science was not s
 
 ## III. Is a movie release season predictable?
 
+Well well well… We’ve already identified some remarkable patterns occurring year after year, but you want more right ? Since you’ve been nice this year (we hope), we got you an early christmas gift… thank us later ! 
 
+Our goal now is to generalize these few significant peaks to a model able to predict the release season of a movie from its characteristics (plot, genres…). To do so, we had to go through many steps but nothing could stop us from trying to make  you smile in these hard times. 
+
+### 1. Processing the plot summaries (part I)
+
+To have the chance to use the plot summaries in our analysis, we first had to process all these texts and make them interpretable to a machine learning algorithm. To achieve this, we transformed all the plots into a bag-of-words matrix (called BOW from now on). Each row represents a film and each column represents a word. But we were feeling quite picky this year, so we added some conditions on the words to be kept in our BOW. Since our ultimate goal was to orient the model towards the right release season of the movies, we thought it would be smarter and more efficient to only focus on the temporality-related words that we carefully gathered within one lexicon. To stay general enough, we expanded this lexicon with the synonyms of all the words originally chosen. 
+
+We now have a temporality-orientated BOW only containing the words we are interested in (and their synonyms). After performing an L1 normalization on the rows of the BOW, we finally obtain the first usable features of our final model. 
+
+### 2. Processing the plot summaries (part II)
+
+Even after doing this, we still felt like the summaries had more to tell about the release season of the films. Therefore we decided to conduct a sentiment analysis on the whole text (without selecting only the words from our lexicon). This gave us four more features to work with : negative, positive, neutral and compound. 
+
+### 3. Processing the metadata features 
+
+For the two genre columns, called genre 1 and genre 2, we performed one-hot encoding. We thus ended up with 16 columns, two per each of the 8 genres. After doing this, all our features are ready for use and we can finally move on to choosing the best model. 
+
+### 4. Choosing the right model and hyperparameters 
+
+After quite some work, it is finally time to dive deep into the machine learning process itself, and to pick the optimal combination of the model and its parameters. To do so, we conducted a k-fold cross-validation process on three different types of model : Boosted decision trees, logistic regression and random forest. These three methods work in quite a different way and are optimal in different scenarios, so we thought we would find the gem within them. The cross validation is achieved by trying different values of the learning rate for Boosted trees, different values of C (Expliquer ce que c’est…)  for the Logistic regression and different numbers of classifiers (Expliquer ce que c’est..) for Random forest. These are the results we obtained :
+
+<iframe src="playing_with_C_testSampleSize.html" width="1000" height="380" class="center-iframe"></iframe>
+
+
+It appears that the logistic regression with c=0.1 is the combination resulting in the best accuracy, which we aim to optimize. 
+
+### 5. Optimizing the model 
+
+To find the most efficient model, we first trained two different sets of features separately, before combining them. The first set of features was constituted of the metadata features combined with the ones extracted from the sentiment analysis. The second one was the BOW. We performed a feature selection process, which consisted in training the model with different combinations of features to keep only the most relevant ones. We concluded that the system was more efficient when it only took into account the genres and the sentiment analysis features. For the model solely based on the BOW, the feature selection was done through the use of the lexicon. The two models trained separately both reached an accuracy close to 27.5%. We then decided to merge all these features to get the best of both worlds. This led us to the following results, summed up in the confusion matrix : 
+
+<iframe src="confusion_matrix.html" width="1000" height="380" class="center-iframe"></iframe>
+
+Outstanding isn'it ? 
+Wait… you don’t look very excited about these results. You are hard to convince aren’t you? That’s not a problem for us, just give us some time…
+
+### 6. Significance level 
+
+Ok… we have to admit that such a confusion matrix is not going to revolutionize the cinema industry, and we understand the disappointment, but is our model that irrelevant ? Let’s take a closer look at the significance level of this classifier.
+
+Our goal with this predictor is, if not to become mediums,to try to make a difference compared to a randomly made decision. Let’s see what values of accuracy would make a statistically significant difference at the 5% significance level. 
 
 <iframe src="p_values_vs_accuracy.html" width="1000" height="380" class="center-iframe"></iframe>
 
+Now the tension is building… have we managed to reach this level ? Are you ready to discover the final accuracy of our model ? Should we unveil it ? 
 
 <iframe src="decompte.html" width="200" height="200" class="center-iframe"></iframe>
 
+We have an accuracy of … !!!!!!! Therefore our model is significantly better than a random predictor, which means that it helps predict the release season of a movie, even if it can’t always be right. But in reality, who is ?
 
-<iframe src="confusion_matrix.html" width="1000" height="380" class="center-iframe"></iframe>
-<iframe src="playing_with_C_testSampleSize.html" width="1000" height="380" class="center-iframe"></iframe>
+
+## IV. Conclusion 
+
+So, are we really in a time loop? 
+What seemed very intuitive at first feels suddenly more complex…
+Initially, we were on good tracks to make this huge discovery. Indeed, for some genres, we found a monthly loop pattern. 
+Then, we found some of these loops are exploited and maintained by the cinema industry e.g. horror movies in October. But we also found some others are not, they might be the consequence of traditional cycles e.g. holidays for family films.
 
 
