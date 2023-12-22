@@ -111,28 +111,33 @@ Secondly, an important bias is the continent of release. In fact, Halloween is c
 For that reason we might want to match movies with the same continent of release. 
 
 Finally, we take into account the release year of the movie, to eliminate the influence of inflation over the years.
+
+Let's visualize the distribution of these confounders:
+PLOT HORROR + FAMILY BEFORE
+
 To balance these confounders, a propensity score is used to match the datasets, while an exact matching is performed on the country of release.
 
-
+Here are the balanced distributions for our confounders:
+PLOT HORROR + FAMILY AFTER
 
 ### 2. Contradictory results
+PLOT BOX OFFICE BARPLOT
+
 * Horror movies
-Idea of interactive plot-> box plots of treat/control box office revenue before and after the matching 
 
 Regarding Horror movies, it was found that after matching, the movies released in October (treatment group) were showing better average box office revenue than in other months. 
 
-
-<iframe src="box.html" width="1000" height="380" class="center-iframe"></iframe>
-
-
 * Family movies
-Idea of interactive plot-> box plots of treat/control box office revenue before and after the matching
 
 Regarding Family movies, it was found that after matching, the movies released in July/November/December (treatment group) were showing lower average box office revenue than in other months. 
 
-<iframe src="box_fam.html" width="1000" height="380" class="center-iframe"></iframe>
 
-Comment this part and justify contradictory results
+We can then conclude that the reason why there are more Horror movies in October is because they are more successful during this month. But regarding Family films, economic success cannot explain why there are more of these movies in July, November, December. 
+
+It seems the movie productors relied on common sense, i.e. that families go more often to the cinema during holidays. But they can never be sure that their prediction will be successful. For example, they did not take into account high competition during these time periods. 
+Our dataset consists of movies from previous years, where Data Science was not such a topic… It would be then interesting to look at the same features but for only recent movies. Unfortunately, our dataset does not contain enough new movies to deepen this analysis. 
+
+
 
 ## III. Is a movie release season predictable?
 
