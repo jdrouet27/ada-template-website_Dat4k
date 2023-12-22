@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compte à Rebours</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        #countdown {
+            font-size: 36px;
+            color: #333;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="countdown">Compte à rebours</div>
+
+<!-- Bouton pour démarrer le compte à rebours -->
+<button id="startButton">Countdown</button>
+
+<script>
+    // Fonction pour démarrer le compte à rebours
+    function startCountdown() {
+        console.log("Fonction startCountdown appelée !");
+
+        // Masquer le texte "Compte à rebours"
+        document.getElementById("countdown").style.display = "none";
+
+        // Afficher le texte "EXPIRÉ" (au cas où)
+        document.getElementById("countdown").innerHTML = "Wait a sec";
+
+        // Attendre 1 seconde avant de commencer le compte à rebours
+        setTimeout(function() {
+            console.log("Démarrage du compte à rebours...");
+
+            // Décompte de 5 à 1
+            var count = 5;
+
+            // Afficher le texte "Compte à rebours" (dans le cas où il était caché)
+            document.getElementById("countdown").style.display = "block";
+
+            // Mettez à jour le compte à rebours chaque seconde
+            var x = setInterval(function() {
+                // Affichage du compte à rebours dans l'élément avec l'id "countdown"
+                document.getElementById("countdown").innerHTML = count + "s ";
+
+                // Diminuer le compte
+                count--;
+
+                // Si le compte à rebours est terminé, afficher un message
+                if (count < 0) {
+                    clearInterval(x);
+                    console.log("Compte à rebours terminé !");
+                    document.getElementById("countdown").innerHTML = "27.5% !!!!!";
+                }
+            }, 1000);
+        }, 1000);
+    }
+
+    // Ajouter un gestionnaire d'événements pour démarrer le compte à rebours lorsqu'on clique sur le bouton
+    document.getElementById("startButton").addEventListener("click", startCountdown);
+</script>
+
+</body>
+</html>
