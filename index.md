@@ -148,20 +148,5 @@ Our dataset consists of movies from previous years, where Data Science was not s
 
 <iframe src="p_values_vs_accuracy.html" width="1000" height="380" class="center-iframe"></iframe>
 
-<style>
-  body {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh; /* 100% de la hauteur de la vue */
-    background-color: #f4f4f4;
-  }
-
-  .center-iframe {
-    border: none;
-  }
-</style>
 
 <iframe src="decompte.html" width="200" height="200" class="center-iframe"></iframe>
