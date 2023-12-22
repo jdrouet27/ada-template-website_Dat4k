@@ -150,3 +150,9 @@ Our dataset consists of movies from previous years, where Data Science was not s
 
 
 <iframe src="decompte.html" width="200" height="200" class="center-iframe"></iframe>
+
+
+<iframe src="confusion_matrix.html" width="1000" height="380" class="center-iframe"></iframe>
+<iframe src="playing_with_C_testSampleSize.html" width="1000" height="380" class="center-iframe"></iframe>
+
+
