@@ -10,6 +10,11 @@
     min-height: 500px;
 }
 
+.page-header h1 {
+    font-size: 2.5em; /* Ajustez la taille de la police selon vos besoins */
+    margin-top: 350px; /* Ajustez la marge supérieure selon vos besoins */
+    color: #fff; /* Couleur du texte du titre */
+}
 #imgbkg {
     background-image: url("{{ site.baseurl }}{{ site.header.image }}");
     background-size: cover;
@@ -29,7 +34,8 @@ body h1 , body h2, body h3 {
 }
 
 .project-tagline{
-    color :#063c72;
+    margin-top: 420px;
+    color : #fff
     font-size: 24px;
 }
 
