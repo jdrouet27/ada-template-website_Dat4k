@@ -4,9 +4,6 @@ title: And if we were in a time loop ?
 ---
 
 
-#  And if we were in a time loop ?
-
-
 As the holiday season begins, the need to get cozy and watch a comforting sentimental Christmas movie suddenly appears. There is, by chance, a new Christmas movie at the box office which looks perfectly cheesy!
 
 Mmh… do you also feel this lingering sense of déjà vu? The Christmas movie, last year, had almost the same poster, and the same type of actors were starring. 
