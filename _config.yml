@@ -3,7 +3,7 @@ remote_theme: pages-themes/cayman@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 title: And if we were in a time loop ?
-description:  "Project Dat4k : by Rémi Desire, César Camus-Emschwiller, Nina Lahellec, Jules Pirot, Julien Drouet"
+description:  "by Rémi Desire, César Camus-Emschwiller, Nina Lahellec, Jules Pirot, Julien Drouet"
 show_downloads: True
 
 header:
