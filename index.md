@@ -139,6 +139,8 @@ Idea of interactive plot-> box plots of treat/control box office revenue before 
 
 Regarding Family movies, it was found that after matching, the movies released in July/November/December (treatment group) were showing lower average box office revenue than in other months. 
 
+<iframe src="box_fam.html" width="1000" height="380" class="center-iframe"></iframe>
+
 Comment this part and justify contradictory results
 
 ## III. Is a movie release season predictable?
