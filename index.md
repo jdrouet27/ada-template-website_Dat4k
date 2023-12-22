@@ -67,15 +67,13 @@ We indeed found 3 genres with noticeable peaks: Horror, Family, and Romance movi
 
 
 
-<iframe src="combined_plots_horror.html" width="1000" height="380" class="center-iframe"></iframe>
+<iframe src="combined_plots_horror.html" width="1000" height="380"></iframe>
 
 
 <iframe src="combined_plots_romance.html" width="1000" height="380"></iframe>
 
 
-<div style="text-align: center;">
-    <iframe src="combined_plots_Family film.html" width="1000" height="380"></iframe>
-</div>
+<iframe src="combined_plots_Family film.html" width="1000" height="380"></iframe>
 
 
 As can be seen in these plots, the spooky season is clearly during October, while family movies are more released during holidays periods (July, November, December), and a small peak can be seen in February for Romance movies.
