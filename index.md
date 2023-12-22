@@ -113,7 +113,6 @@ For that reason we might want to match movies with the same continent of release
 Finally, we take into account the release year of the movie, to eliminate the influence of inflation over the years.
 
 Let's visualize the distribution of these confounders:
-PLOT HORROR + FAMILY BEFORE
 
 <iframe src="box_Horror_before.html" width="1000" height="380" class="center-iframe"></iframe>
 
@@ -121,14 +120,9 @@ PLOT HORROR + FAMILY BEFORE
 
 To balance these confounders, a propensity score is used to match the datasets, while an exact matching is performed on the country of release.
 
-Here are the balanced distributions for our confounders:
-<iframe src="box_Horror_after.html" width="1000" height="380" class="center-iframe"></iframe>
-<iframe src="box_Family_after.html" width="1000" height="380" class="center-iframe"></iframe>
-
-PLOT HORROR + FAMILY AFTER
 
 ### 2. Contradictory results
-PLOT BOX OFFICE BARPLOT
+
 <iframe src="barplot.html" width="1000" height="380" class="center-iframe"></iframe>
 
 * Horror movies
