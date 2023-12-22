@@ -46,7 +46,7 @@ There are over 351 different genres in the movie metadata, which seems difficult
 - Action
 - Family film
 - Horror
-- Informative\
+- Informative
 
 Let’s look at the overall monthly distribution of these main genres.
 
