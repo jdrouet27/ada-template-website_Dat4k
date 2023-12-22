@@ -169,7 +169,7 @@ It appears that the logistic regression with c=0.1 is the combination resulting 
 
 To find the most efficient model, we first trained two different sets of features separately, before combining them. The first set of features was constituted of the metadata features combined with the ones extracted from the sentiment analysis. The second one was the BOW. We performed a feature selection process, which consisted in training the model with different combinations of features to keep only the most relevant ones. We concluded that the system was more efficient when it only took into account the genres and the sentiment analysis features. For the model solely based on the BOW, the feature selection was done through the use of the lexicon. The two models trained separately both reached an accuracy close to 27.5%. We then decided to merge all these features to get the best of both worlds. This led us to the following results, summed up in the confusion matrix : 
 
-<iframe src="confusion_matrix.html" width="1000" height="380" class="center-iframe"></iframe>
+<iframe src="confusion_matrix.html" width="700" height="380" class="center-iframe"></iframe>
 
 Outstanding isn'it ? 
 Wait… you don’t look very excited about these results. You are hard to convince aren’t you? That’s not a problem for us, just give us some time…
