@@ -156,11 +156,16 @@ Even after doing this, we still felt like the summaries had more to tell about t
 
 For the two genre columns, called genre 1 and genre 2, we performed one-hot encoding. We thus ended up with 16 columns, two per each of the 8 genres. After doing this, all our features are ready for use and we can finally move on to choosing the best model. 
 
-### 4. Choosing the right model and hyperparameters 
-
-After quite some work, it is finally time to dive deep into the machine learning process itself, and to pick the optimal combination of the model and its parameters. To do so, we conducted a k-fold cross-validation process on three different types of model : Boosted decision trees, logistic regression and random forest. These three methods work in quite a different way and are optimal in different scenarios, so we thought we would find the gem within them. The cross validation is achieved by trying different values of the learning rate for Boosted trees, different values of C (Expliquer ce que c’est…)  for the Logistic regression and different numbers of classifiers (Expliquer ce que c’est..) for Random forest. These are the results we obtained :
+### 4. Choosing the right model and hyperparameters
+After quite some work, it is finally time to dive deep into the machine learning process itself, and to pick the optimal combination of the model and its parameters. With a view to optimising our parameters to obtain the best result, we ran for different values of C and different sample test sizes. We displayed the results in the form of the following graph:
 
 <iframe src="playing_with_C_testSampleSize.html" width="1000" height="380" class="center-iframe"></iframe>
+
+We can see that the best parameters are obtained for a sample size of 0.05 times the whole and a C value of 0.01. By deepening our analysis we realized that the sample was not consistent enough and the results were too variable from one sample to another. We therefore concluded that we needed to check these results in another way.
+
+ To dig deeper into the model selection, we conducted a k-fold cross-validation process on three different types of model : Boosted decision trees, logistic regression and random forest. These three methods work in quite a different way and are optimal in different scenarios, so we thought we would find the gem within them. The cross validation is achieved by trying different values of the learning rate for Boosted trees, different values of C (Expliquer ce que c’est…)  for the Logistic regression and different numbers of classifiers (Expliquer ce que c’est..) for Random forest. These are the results we obtained :
+
+<iframe src="model_chosen.html" width="1000" height="380" class="center-iframe"></iframe>
 
 
 It appears that the logistic regression with c=0.1 is the combination resulting in the best accuracy, which we aim to optimize. 
