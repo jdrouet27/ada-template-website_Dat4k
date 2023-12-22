@@ -63,7 +63,7 @@ The first histogram displays genre distribution over month.
 It is clear that most of the genres have less movies in summer than in other seasons, except for Action, Horror and Family film movies.
 The second plot allows us to compare genres throughout the months.
 There are indeed more informative movies than horror movies in Spring but the tendency is the opposite in Summer.
-It seems clear the Drama, Comedy, and Action genres are the most present, and this for all seasons.
+It seems clear Drama, Comedy, and Action genres are the most present, and this for all seasons.
 No striking results appear in this first plot, it would be too easy right? 
 Maybe some tendencies will appear by looking at genres individually…
 We indeed found 3 genres with noticeable peaks: Horror, Family, and Romance movies.
