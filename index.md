@@ -184,7 +184,7 @@ Our goal with this predictor is, if not to become mediums,to try to make a diffe
 
 Now the tension is building… have we managed to reach this level ? Are you ready to discover the final accuracy of our model ? Should we unveil it ? 
 
-<iframe src="decompte.html" width="200" height="200" class="center-iframe"></iframe>
+<iframe src="decompte.html" width="200" height="200" class="center-iframe2"></iframe>
 
 We have an accuracy of … !!!!!!! Therefore our model is significantly better than a random predictor, which means that it helps predict the release season of a movie, even if it can’t always be right. But in reality, who is ?
 
