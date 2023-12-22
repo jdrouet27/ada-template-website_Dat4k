@@ -53,7 +53,9 @@ Let’s look at the overall monthly distribution of these main genres.
 
 
 
-<iframe src="distrib_over_season_combined.html" width="800" height="850"></iframe>
+<iframe src="distrib_over_season_combined1.html" width="800" height="400"></iframe>
+<iframe src="distrib_over_season_combined2.html" width="800" height="400"></iframe>
+
 
 
 The first histogram lets us compare each genre with itself for every month. 
