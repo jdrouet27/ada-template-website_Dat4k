@@ -122,6 +122,7 @@ PLOT HORROR + FAMILY AFTER
 
 ### 2. Contradictory results
 PLOT BOX OFFICE BARPLOT
+<iframe src="barplot.html" width="1000" height="380" class="center-iframe"></iframe>
 
 * Horror movies
 
